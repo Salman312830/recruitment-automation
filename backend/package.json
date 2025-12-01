@@ -1,0 +1,17 @@
+{
+  "name": "recruitment-automation-backend",
+  "version": "1.0.0",
+  "description": "Backend API for the recruitment automation system (CV upload, parsing, scoring, and workflow automation).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
